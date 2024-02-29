@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <title>Formulario</title>
+</head>
+<body id="formulario">
+    <br>
+    <h1><b>Breaking Bad - Que comience el juego!</b></h1>
+    <br>
+    <form name="BreakingBad" action="raul.rodriguez@proeducaglobal.com" method="post"> 
+        <fieldset><legend>Datos personales</legend>
+            Nombre <input type="text" required placeholder="Campo Obligatorio"><br>
+            Apellidos <input type="text" required placeholder="Campo Obligatorio"><br>
+            Dirección Postal <input type="text" placeholder="Calle"><input type="text" placeholder="Número" ><input type="text" placeholder="Piso" ><input type="text" placeholder="Código Postal" ><br>
+            DNI <input type="text"><br>
+            Correo electrónico <input type="text" required placeholder="Campo Obligatorio"><br>
+            Sexo <br>
+            <input type="radio" name="sexo">Hombre
+            <input type="radio" name="sexo">Mujer
+            <br>
+            Fecha de Nacimiento <input type="date" name="fecha" id="">
+        </fieldset>
+        <fieldset><legend>Personaje favorito</legend>
+        <select name="Personaje" id="Personaje">
+            <option value="1">Jessie Pinkman</option>
+            <option value="2">Walter White</option>
+            <option value="3">Saul Goodman</option>
+            <option value="4">Gustavo Fring</option>
+            <option value="5">Pollos Hermanos</option>
+            <option value="6">Otros</option>
+        </select><br>
+        Comenta cual es tu personaje favorito <br>
+        <textarea name="" id="" cols="30" rows="10"></textarea><br>
+        <input type="submit" value="Enviar"><input type="reset" value="Borrar"> <input type="file" name="Subir Archivos" id="" >
+        </fieldset>
+    </form>
+    
+    
+</body>
+</html>

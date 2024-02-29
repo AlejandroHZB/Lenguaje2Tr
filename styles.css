@@ -1,0 +1,111 @@
+
+#index{
+    background-image:url(img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center; 
+}
+#formulario{
+    background-image:url(img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Helvetica;
+    color: white;
+    font-size: 20px;
+}
+#tabla{
+    background-color: #0c3e11;
+    text-align: center;
+    font-family:Helvetica;
+}
+@font-face {
+    font-family: BreakingBad;
+    src: url(font/Breaking\ Bad.ttf);
+}
+   
+#fuente{
+    font-family: BreakingBad;
+    font-size: 30px;
+    color: white;
+}
+h1{
+    text-align: center;
+
+}
+#logo{
+    width: 200px;
+    height: 200px;
+}
+#poster{
+    width: 700px;
+    height: 300px;
+    border:10px;
+    border-style: outset;
+    border-color: brown;
+    border-radius: 22px;
+}
+table,tr,td{
+    margin: 0 auto;
+    border-collapse: collapse;
+    border: black 9px solid;
+    width: 1100px;
+    height:65px;
+    font-size: 25px;
+    text-align: center;
+}
+
+td{
+    width: 100px;
+    height:65px;
+}
+
+sub{
+    font-size: 10px;
+}
+#bl{
+    background-color: black;
+}
+#gree{
+    background-color: rgb(120, 167, 50);
+}
+#purp{
+    background-color: rgb(156, 118, 175);
+}
+#grb{
+    background-color: rgb(88, 119, 33);
+}
+#os{
+    background-color: #2e461f;
+}
+#am{
+    background-color: rgb(132, 158, 45);
+}
+#bln{
+    background-color: rgb(205, 206, 206);
+}
+#cla{
+    background-color: rgb(201, 246, 135);
+}
+#gr{
+    background-color: rgb(156, 177, 149);
+}
+#vdo{
+    background-color: #476036;
+}
+#greeH{
+   background-color: black;
+}
+#Ha{
+    width: 100%;
+}
+#tabla2{
+    width: 1000px;
+    height: 50px;
+    background-color: orange;
+}
+#celda2{
+    width: 100px;
+    height:65px;
+}
